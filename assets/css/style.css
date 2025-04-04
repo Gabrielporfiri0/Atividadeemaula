@@ -1,0 +1,217 @@
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+   
+}
+body{
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    width: 5%;
+}
+#logo1 {
+    width: 25%;
+}
+header, #navbar{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5%;
+
+}
+
+li{
+    list-style: none;
+
+}
+.navbar-item{
+    padding: 5px 15px;
+    margin: 5px 15px;
+}
+#banner{
+    background-image: url('/assets/images/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88.3vh;
+    display: flex;
+    align-items: center;
+}
+
+#banner-text{
+    margin-left: 18%;
+    width: 23%;
+
+}
+#banner h1{
+    margin-bottom: 0;
+}
+
+#banner h1,
+#banner h1 span{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+#banner h1 span{
+    display: block;
+}
+
+#banner-text p, #banner-text a {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+#banner-text a{
+    background-color: #e1b12c;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: bold;
+}
+#conteiner{
+ text-align: center;
+}
+
+#conteiner h1{
+    font-size: 2rem;
+ 
+}
+
+#conteiner-img, #final {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#conteiner-img div{
+width: 33%;
+}
+
+#conteiner-img div img{
+    width: 100%;
+}
+#espelho h1{
+    text-align: center;
+}
+#espelho div img
+{
+    width: 20%;
+    margin-left: 15%;
+}
+
+#espelho div div
+{
+    margin-left: 15%;
+    width: 20%;
+}
+
+#conteiner-img p{
+    color: #718093
+}
+
+#espelho2 {
+    display: flex;
+}
+
+#espelho div div a {
+    color: #000;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    background-color: #76c7af;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: bold;
+}
+ 
+#espelho div div p{
+    margin-bottom: 40px;
+}
+
+#final{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+}
+#final div {
+    width: 20%;
+}
+
+#final h1{
+    display: inline-block;
+}
+
+#pro h1, #pro p{
+    text-align: center;
+}
+
+#doctor{
+    width:50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+    gap: 15px;
+ }
+
+
+#doctor img{
+    width: 100%;
+    
+}
+
+#doctor div {
+    text-align: center;
+    
+}
+
+#pro
+{
+    background-color: rgb(137, 207, 184);
+}
+
+#frase{
+    width: 30%; 
+}
+
+
+#finaliza{
+    padding: 10px 10%;
+    display: flex;
+justify-content: space-between;
+}
+
+#menu
+{
+    text-align: left;
+}
+
+#menu1 ul{
+    padding: 0;
+    text-align: left;
+}
+
+#menu1 ul li{
+    padding: 10px;
+}
+
+#contato p{
+    background-color: #76c7af;
+    color: #fff;
+    padding: 5px;
+}
+
+
+#menu1 h1, #contato h1{
+    border-bottom:  3px solid #76c7af ;
+}
+
