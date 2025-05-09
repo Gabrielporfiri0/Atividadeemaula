@@ -52,7 +52,7 @@ li{
     margin: 5px 15px;
 }
 #banner{
-    background-image: url('');
+    background-image: url('/assets/images/pet.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,8 +64,8 @@ li{
 #banner-text{
     margin-left: 18%;
     width: 23%;
-
 }
+
 #banner h1{
     margin-bottom: 0;
 }
@@ -92,6 +92,7 @@ li{
     border-radius: 10px;
     font-size: bold;
 }
+
 #conteiner{
  text-align: center;
 }
@@ -164,7 +165,7 @@ width: 33%;
     margin: 0 10px;
 }
 
-#espelho2 {
+.espelho2 {
     display: flex;
 }
 
@@ -271,9 +272,76 @@ justify-content: space-between;
 
 
 
-@media only screen and (max-width:768px){}
+@media only screen and (max-width:980px){
+    .menu-btn{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20pz;
+        z-index: 1100;
+    }
+
+    nav{
+        position: fixed;
+        top: 40px;
+        left: -250px;
+        width: 250px;
+        background-color: none;
+        box-shadow: 2px 0px 5px rgb(0, 0, 0, 0.1);
+        transition: left 0.5 ease;
+        margin-left: 2%;
+    }
+    
+    nav.active{
+        left: 0;
+        background-color: #fff;
+    }
+
+    nav.active li a{
+        border: 2px #1b1d20 solid; 
+        border-radius: 5%;
+    }
+
+    #navbar{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .navbar-item{
+        padding: 15px 20px;
+        display: block;
+        color: #000000;
+    }
+
+    #banner-text{
+        margin-left: 10%;
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    #espelho div img
+    {
+        width: 40%;
+    }
+
+    #espelho div div {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .espelho2 {
+        margin-bottom: 5%;
+    }
+
+}
 
 @media only screen and (max-width:600px){
+    #logo{
+        width: 25%;
+    }
+    
     .menu-btn{
         display: block;
         position: absolute;
@@ -284,7 +352,7 @@ justify-content: space-between;
 
     nav{
         position: fixed;
-        top: 0;
+        top: 120px;
         left: -250px;
         width: 250px;
         background-color: none;
@@ -308,41 +376,47 @@ justify-content: space-between;
         display: block;
         color: #000000;
     }
-}
 
-@media only screen and (max-width:px){
-    .menu-btn{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20pz;
-        z-index: 1100;
+   
+    #banner-text{
+        margin-left: 5%;
+        width: 100%;
+        margin-top: 50%;
     }
 
-    nav{
-        position: fixed;
-        top: 0;
-        left: -250px;
-        width: 250px;
-        background-color: none;
-        box-shadow: 2px 0px 5px rgb(0, 0, 0, 0.1);
-        transition: left 0.5 ease;
-    }
-    
-    nav.active{
-        left: 0;
-    }
-
-    #navbar{
+    .espelho2 {
+        display: flex;
         flex-direction: column;
-        padding: 0;
-        margin: 0;
-        gap: 10px;
+    
     }
 
-    .navbar-item{
-        padding: 15px 20px;
-        display: block;
-        color: #000000;
+    #espelho div img
+    {
+        width: 80%;
     }
+
+    #espelho div div {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .espelho2 div {
+       text-align: center;
+       padding: 5%;
+    
+    }
+
+   .reflexo{
+    flex-direction: column-reverse;
+   }
+
+   #final, #finaliza{
+    flex-direction: column;
+   }
+
+   #final div, #finaliza div{
+    width: 100%;
+   }
+
 }
+
