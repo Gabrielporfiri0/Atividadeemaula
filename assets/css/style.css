@@ -52,7 +52,7 @@ li{
     margin: 5px 15px;
 }
 #banner{
-    background-image: url('//Atividadeemaula/assets/images/pet.jpg');
+    background-image: url('/Atividadeemaula/assets/images/pet.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
