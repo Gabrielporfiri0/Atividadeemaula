@@ -299,7 +299,7 @@ justify-content: space-between;
 
     nav.active li a{
         border: 2px #1b1d20 solid; 
-        border-radius: 5%;
+        border-radius: 20px;
     }
 
     #navbar{
